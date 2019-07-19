@@ -14,7 +14,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDom.render(
   <BrowserRouter
-    basename={./public/index.html}>
+    basename={/public/index.html}>
     <App />,
   </BrowserRouter>
   // <Provider store={store}>
